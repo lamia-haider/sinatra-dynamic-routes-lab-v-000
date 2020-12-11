@@ -34,7 +34,7 @@ class App < Sinatra::Base
       [@n1 * @n2].to_s
     else @op == "divide"
       [@n1 / @n2].to_s
-
+    end
   end
 
 end
